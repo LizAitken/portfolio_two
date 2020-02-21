@@ -1,0 +1,52 @@
+html {
+    Box-sizing: border-box;
+}
+
+.main-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4rem; 
+}
+
+.header {
+    font-size: 3rem;
+}
+
+.rectangle {
+    width: 160px;
+    height: 20px;
+    background-color: #4155D1;
+    z-index: 0;
+    opacity: .5;
+}
+
+.title {
+    text-align: end;
+    font-weight: 100;
+    font-size: 1.7rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cartoon {
+    background-image: url("../images/profile_cartoon.png");
+    background-size: cover;
+    width: 24rem;
+    height: 24rem;
+    display: flex;
+    align-self: center;
+}
+
+.arrow-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.down-arrow {
+    background-image: url("../images/down-arrow.png");
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    margin: 3rem;
+}

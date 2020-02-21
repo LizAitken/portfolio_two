@@ -1,0 +1,107 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+    overflow: scroll;
+    font-family: 'Roboto Slab', serif;
+}
+
+.popup-wrap {
+    position: absolute;
+    text-align: center;
+    left: 14%;
+    right: 14%;
+    top: 11%;
+    bottom: 11%;
+    margin: auto;
+    min-width: 262px;
+    padding-bottom: 3rem;
+    overflow: scroll;
+}
+
+.button-wrap {
+    text-align: end;
+}
+
+button {
+    width: 2rem;
+    height: 2rem;
+    margin: .5rem;
+    background-color: #FAB85B;
+}
+
+.title-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head-photo {
+    height: 10rem;
+    margin: 1rem;
+    padding: 0;
+    background-color: grey;
+}
+
+.main-side-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side-info, .side-info ul, .main-work-wrap, .sidebar-wrap, .about-work-wrap {
+    margin: .5rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.side-info p {
+    margin: .5rem;
+}
+
+.side-info li {
+    padding: 0 0 .4rem .3rem;
+    list-style-type: square;
+}
+
+.about-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.sidebar-title {
+    margin: .6rem 0;
+    padding: 0;
+    text-align: left;
+    color: #828282;
+}
+
+.work-p {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.launch {
+    background-color: #4155D1;
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    padding: .5rem;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+
+.launch a {
+    background-color: #4155D1;
+    color: #F5F6F0;
+}

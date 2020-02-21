@@ -1,0 +1,45 @@
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    justify-content: space-around;
+}
+
+.headshot-paragraph-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.headshot {
+    background-image: url("../images/Bb_Headshot-7612.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 280px;
+    display: flex;
+    align-self: center;
+    margin: 1rem;
+    padding-left: 1rem;
+}
+
+.paragraph-icon-wrap {
+    margin: 2rem 2rem 0 2rem;
+}
+
+.about-paragraph {
+    flex-wrap: wrap;
+    margin: 1rem 0 2.5rem 0;
+    padding: 0;
+}
+
+.icon-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.react-icons {
+    width: 2.5rem;
+    height: 2.5rem;
+}

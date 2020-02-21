@@ -1,0 +1,13 @@
+* {
+  background-color: #F5F6F0;
+}
+
+h1 {
+  font-family: 'Yeseva One', cursive;
+}
+
+.page-titles {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 4rem;
+}
