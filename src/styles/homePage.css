@@ -32,8 +32,8 @@ html {
 .cartoon {
     background-image: url("../images/profile_cartoon.png");
     background-size: cover;
-    width: 24rem;
-    height: 24rem;
+    width: 26rem;
+    height: 26rem;
     display: flex;
     align-self: center;
 }

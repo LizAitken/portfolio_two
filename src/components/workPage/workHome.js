@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/work.css';
 import Project from './project';
-import { project_info } from './information';
+import { project_info } from '../../information';
 
 const WorkHome = props => {
     const { scrollDown } = props;

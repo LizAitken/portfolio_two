@@ -1,3 +1,8 @@
+.about-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .about-wrap {
     display: flex;
     flex-direction: column;
@@ -32,6 +37,11 @@
     padding: 0;
 }
 
+.web-link {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 .icon-wrap {
     display: flex;
     flex-direction: row;
@@ -42,4 +52,8 @@
 .react-icons {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.react-icons:hover, .web-link:hover  {
+    opacity: 50%;
 }

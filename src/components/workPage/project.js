@@ -22,8 +22,8 @@ class Project extends Component {
         const imgUrl = project_information.images[0];
 
         var workImage = {
-            backgroundImage: `url(${imgUrl})`,
-            backgroundSize: 'cover',
+            // backgroundImage: `url(${imgUrl})`,
+            // backgroundSize: 'cover',
             width: '10rem',
             height: '10rem',
             margin: '1.5rem',
@@ -36,7 +36,8 @@ class Project extends Component {
             <>
                <div className='work-card'>
                     <div className='image-paragraph-wrap'>
-                        <div style={workImage} alt={project_information.title}></div>
+                        {/* <div style={workImage} alt={project_information.title}></div> */}
+                        <img style={workImage} src={`require (${imgUrl})`}></img>
                         <div className='title-para-button-wrapping'>
                             <a id='work'><h1>{ '{ ' + project_information.title + ' }'}</h1></a>
                             <p className='work-paragraph'>{project_information.about}</p>

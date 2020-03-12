@@ -3,7 +3,6 @@ import '../styles/homePage.css';
 import NavBar from '../components/navBar';
 import WorkHome from './workPage/workHome';
 import About from '../components/about';
-import Contact from './contact';
 
 const Homepage = () => {
 
@@ -30,8 +29,7 @@ const Homepage = () => {
                 <div className='down-arrow' onClick={ () => scrollDown() }></div> 
             </div> 
             <WorkHome scrollDown={() => scrollDown()}/>   
-            <About scrollDown={() => scrollDown()}/> 
-            <Contact />    
+            <About />    
         </div>
     )
 }
