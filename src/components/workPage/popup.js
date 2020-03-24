@@ -43,6 +43,8 @@ const PopUp = props => {
                                         <li key={k} className='method-info'>{method}</li>
                                     )
                                 }
+
+                                return null;
                             })
 
                             }
