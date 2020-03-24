@@ -9,6 +9,18 @@ const Homepage = () => {
     const scrollDown = () => { 
         window.scrollTo(window.scrollX, window.scrollY + 700);
     }
+
+    const purple = {
+        color: '#00ffd5'
+    };
+
+    const red = {
+        color: '#48ff00'
+    };
+
+    const green = {
+        color: '#fffb00' 
+    };
     
     return (
         <div id='home'>
@@ -19,9 +31,9 @@ const Homepage = () => {
                         <h1 className='header'>Hey, I'm Liz.</h1>
                         <div className='rectangle'></div>
                     </div>
-                    <h4 className='title'>Artist</h4>
-                    <h4 className='title'>Software Developer</h4>
-                    <h4 className='title'>Designer</h4>
+                    <h4 className='title' style={purple}>Artist</h4>
+                    <h4 className='title' style={red}>Software Developer</h4>
+                    <h4 className='title' style={green}>Designer</h4>
                 </div>
                 <div className='cartoon'></div>
             </div> 

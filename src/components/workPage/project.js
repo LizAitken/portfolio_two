@@ -42,7 +42,7 @@ class Project extends Component {
                             <a id='work'><h1>{ '{ ' + project_information.title + ' }'}</h1></a>
                             <p className='work-paragraph'>{project_information.about}</p>
                             <div className='work-button-wrapping'>
-                                <button className='work-button' onClick={() => this.togglePopup()}>More Info</button>              
+                                <button className='glow-on-hover' onClick={() => this.togglePopup()}>More Info</button>              
                             </div>
                         </div>
                     </div>

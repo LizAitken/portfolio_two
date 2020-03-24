@@ -15,16 +15,25 @@ html {
 }
 
 .rectangle {
-    width: 160px;
+    width: 100%;
     height: 20px;
-    background-color: #4155D1;
-    z-index: 0;
-    opacity: .5;
+    z-index: 3;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    filter: blur(4px);
+    background-size: 400%;
+    border-radius: .5;
 }
 
 .title {
+    color: whitesmoke;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-right: 1%;
     text-align: end;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.7rem;
     font-family: 'Roboto Slab', serif;
 }
@@ -49,4 +58,10 @@ html {
     width: 2rem;
     height: 2rem;
     margin: 3rem;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }

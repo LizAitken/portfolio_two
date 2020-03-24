@@ -59,7 +59,7 @@ const PopUp = props => {
                             }                               
                             </ul>
                         </div>
-                        <button className='launch'><a href={info.links.github} target='_blank' rel="noopener noreferrer">Launch Site</a></button>
+                        <button className='launch'><a href={info.links.github} target='_blank' rel="noopener noreferrer">GitHub</a></button>
                     </div>
                 </div>
             </div>
