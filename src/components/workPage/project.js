@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import '../styles/homePage.css';
 import PopUp from './popup';
+import '../../styles/work.css';
 
 class Project extends Component {
     constructor(props) {
@@ -19,11 +19,8 @@ class Project extends Component {
     render() {
         const { popupState } = this.state;
         const { project_information } = this.props;
-        const imgUrl = project_information.images[0];
 
         var workImage = {
-            // backgroundImage: `url(${imgUrl})`,
-            // backgroundSize: 'cover',
             width: '10rem',
             height: '10rem',
             margin: '1.5rem',
@@ -36,13 +33,12 @@ class Project extends Component {
             <>
                <div className='work-card'>
                     <div className='image-paragraph-wrap'>
-                        {/* <div style={workImage} alt={project_information.title}></div> */}
-                        <img style={workImage} src={`require (${imgUrl})`}></img>
+                        <img style={workImage} src={project_information.images[0]} alt={'Example image of ' + project_information.title}></img>
                         <div className='title-para-button-wrapping'>
                             <a id='work'><h1>{ '{ ' + project_information.title + ' }'}</h1></a>
                             <p className='work-paragraph'>{project_information.about}</p>
                             <div className='work-button-wrapping'>
-                                <button className='glow-on-hover' onClick={() => this.togglePopup()}>More Info</button>              
+                                <button className='work-button' onClick={() => this.togglePopup()}>More Info</button>              
                             </div>
                         </div>
                     </div>

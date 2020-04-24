@@ -12,7 +12,7 @@ const PopUp = props => {
                 </div>
                 <div className='title-wrap'>
                     <h1>{info.title}</h1>  
-                    <div className='head-photo'></div>
+                    <img className='head-photo' src={info.main_images[0]} alt={'A photo of ' + info.title}></img>
                 </div>
                 <div className='main-side-wrap'>
                     <div className='main-work-wrap'>
@@ -59,7 +59,7 @@ const PopUp = props => {
                             }                               
                             </ul>
                         </div>
-                        <button className='launch'><a href={info.links.github} target='_blank' rel="noopener noreferrer">GitHub</a></button>
+                        <button className='launch'><a href={info.links.github || info.links.design } target='_blank' rel="noopener noreferrer">GitHub</a></button>
                     </div>
                 </div>
             </div>

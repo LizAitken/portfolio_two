@@ -12,7 +12,9 @@ const About = props => {
            {/* <a id='about'><h1 className='about-title'>about</h1></a>  */}
            <div className='about-wrap'>
                 <div className='headshot-paragraph-wrap'>
-                    <div className='headshot'></div>
+                    <div className='blob'>
+                        <div className='headshot'></div>
+                    
                     <div className='paragraph-icon-wrap'>
                         <a id='about'><h1 className='about-title'>about</h1></a>
                         <p className='about-paragraph'>I love creating and building things. The problem-solving process of creation first drew me towards the fine arts and has now drawn me to software development. While designing a website for my artwork, I desired to go a bit further and do something outside of the template I was working in. <br/>Through that desire, I was introduced to a bit of HTML, CSS, and JavaScript. After that, the world of software development opened up and I climbed down the rabbit hole.
@@ -25,6 +27,7 @@ const About = props => {
                                 <a href="https://www.linkedin.com/in/liz-aitken-dev/" target = "_blank"><FaLinkedin /></a>
                             </IconContext.Provider>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>

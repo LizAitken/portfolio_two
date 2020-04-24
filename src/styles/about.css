@@ -13,18 +13,28 @@
 .headshot-paragraph-wrap {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .headshot {
     background-image: url("../images/Bb_Headshot-7612.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1000px;
-    height: 280px;
+    width: 80rem;
+    height: 24rem;
+    margin: 1rem;
+    padding-left: 5rem;
+}
+
+.blob {
     display: flex;
     align-self: center;
-    margin: 1rem;
-    padding-left: 1rem;
+    background-image: url("../images/blob-shape.svg");
+    background-size: cover;
+    z-index: -10;
+    width: 70rem;
+    height: 35rem;
+
 }
 
 .paragraph-icon-wrap {

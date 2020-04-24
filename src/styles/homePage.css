@@ -1,5 +1,13 @@
 html {
     Box-sizing: border-box;
+    background-color: #f6e8ea;
+    margin: 0;
+    padding: 0;
+}
+
+.wave {
+    background-image: url("../images/wave.svg");
+    background-size: cover;
 }
 
 .main-wrap {
@@ -31,16 +39,16 @@ html {
     border-bottom-left-radius: 10px;
     padding-right: 1%;
     text-align: end;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 1.7rem;
     font-family: 'Roboto Slab', serif;
 }
 
 .cartoon {
-    background-image: url("../images/profile_cartoon.png");
+    background-image: url("../images/frame_cartoon.png");
     background-size: cover;
-    width: 26rem;
-    height: 26rem;
+    width: 28rem;
+    height: 28rem;
     display: flex;
     align-self: center;
 }
