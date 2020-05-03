@@ -21,9 +21,8 @@ class Project extends Component {
         const { project_information } = this.props;
 
         var workImage = {
-            width: '10rem',
-            height: '10rem',
-            margin: '1.5rem',
+            width: '80%',
+            margin: '1rem',
             display: 'flex',
             alignSelf: 'center',
             padding: 0
@@ -32,8 +31,8 @@ class Project extends Component {
         return (
             <>
                <div className='work-card'>
+               <img style={workImage} src={project_information.images[0]} alt={'Example image of ' + project_information.title}></img>
                     <div className='image-paragraph-wrap'>
-                        <img style={workImage} src={project_information.images[0]} alt={'Example image of ' + project_information.title}></img>
                         <div className='title-para-button-wrapping'>
                             <a id='work'><h1>{ '{ ' + project_information.title + ' }'}</h1></a>
                             <p className='work-paragraph'>{project_information.about}</p>

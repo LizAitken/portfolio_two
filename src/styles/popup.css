@@ -44,7 +44,8 @@ button {
 }
 
 .head-photo {
-    height: 10rem;
+    /* height: 10rem; */
+    width: 50%;
     margin: 1rem;
     padding: 0;
 }

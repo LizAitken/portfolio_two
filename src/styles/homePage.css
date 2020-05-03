@@ -45,10 +45,10 @@ html {
 }
 
 .cartoon {
-    background-image: url("../images/frame_cartoon.png");
+    background-image: url("../images/rabbit_hole.png");
     background-size: cover;
-    width: 28rem;
-    height: 28rem;
+    width: 48rem;
+    height: 59rem;
     display: flex;
     align-self: center;
 }
