@@ -1,3 +1,4 @@
+
 .popup {
     position: fixed;
     width: 100%;
@@ -30,11 +31,19 @@
     text-align: end;
 }
 
-button {
-    width: 2rem;
-    height: 2rem;
-    margin: .5rem;
+.popup-button {
     background-color: #f2c885;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url("../images/button_wave.svg");
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
 }
 
 .title-wrap {
@@ -43,11 +52,44 @@ button {
     justify-content: center;
 }
 
-.head-photo {
-    /* height: 10rem; */
-    width: 50%;
+.title-wrap h1 {
+    font-size: 3.6rem;
+}
+
+.head-photo .modal-image {
+    width: 55%;
     margin: 1rem;
     padding: 0;
+}
+
+.modal-image {
+    margin-bottom: 4rem;
+    position: relative;
+    text-align: center;
+}
+
+.modal-image:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.modal-image:hover .image-writing{
+    opacity: 100%;
+}
+
+.image-writing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+    opacity: 0;
+    border: solid black 2px;
+    background-color: #f6e8ea;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
 .main-side-wrap {
@@ -71,13 +113,14 @@ button {
 .side-info li {
     padding: 0 0 .4rem .3rem;
     list-style-type: square;
+    font-size: 1.3rem;
 }
 
-.about-title {
+.about-title-p {
     margin: 0;
     padding: 0;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .sidebar-title {
@@ -85,18 +128,20 @@ button {
     padding: 0;
     text-align: left;
     color: #828282;
+    font-size: 1.5rem;
 }
 
 .work-p {
     text-align: left;
     flex-wrap: wrap;
+    font-size: 1.3rem;
 }
 
 .launch {
     background-color: #4155D1;
     width: auto;
     height: auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: .5rem;
     font-family: 'Roboto Slab', serif;
     cursor: pointer;
@@ -106,3 +151,14 @@ button {
     background-color: #4155D1;
     color: #F5F6F0;
 }
+
+video {
+    margin: 5rem;
+}
+
+.head-photo {
+    width: 60%;
+    height: auto;
+    margin: 1rem;
+}
+

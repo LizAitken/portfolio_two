@@ -18,9 +18,9 @@ const WorkHome = props => {
                     )
                 })
             } 
-            <div className='arrow-wrap'>
+            {/* <div className='arrow-wrap'>
                 <div className='down-arrow' onClick={ () => scrollDown() }></div> 
-            </div>   
+            </div>    */}
         </div>
     )
 }

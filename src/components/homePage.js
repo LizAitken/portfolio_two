@@ -18,7 +18,6 @@ const Homepage = () => {
                         <div className='title-wrap'>
                             <div className='header-wrap'>
                                 <h1 className='header'>Hey, I'm Liz.</h1>
-                                {/* <div className='rectangle'></div> */}
                             </div>
                             <h4 className='title'>Artist</h4>
                             <h4 className='title'>Software Developer</h4>
@@ -27,9 +26,9 @@ const Homepage = () => {
                         <div className='cartoon'></div>
                     </div> 
             </div>
-            <div className='arrow-wrap'>
+            {/* <div className='arrow-wrap'>
                 <div className='down-arrow' onClick={ () => scrollDown() }></div> 
-            </div> 
+            </div>  */}
             <WorkHome scrollDown={() => scrollDown()}/>   
             <About />    
         </div>
