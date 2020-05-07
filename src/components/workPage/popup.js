@@ -97,23 +97,22 @@ class PopUp extends Component {
                         }
                     </div>
                     <div className='sidebar-wrap'>
-                        <div className='side-info'>
-                            { info.methodology == '' ? 
-                            null
-                            :
-                                <h4 className='sidebar-title'>Methodologies</h4>
-                            }
-                                <ul>{info.methodology.map((method, k) => {
-                                    if (method !== '') {
-                                        return (
-                                            <li key={k} className='method-info'>{method}</li>
-                                        )
-                                    }
-                                })
+                            { info.methodology ? 
+                                <div className='side-info'>
+                                    <h4 className='sidebar-title'>Methodologies</h4>
+                                        <ul>{info.methodology.map((method, k) => { 
+                                                return (
+                                                    <li key={k} className='method-info'>{method}</li>
+                                                )
+                                            })
 
-                                }
-                                </ul>
-                        </div>
+                                        }
+                                        </ul>
+                                </div>
+                                :
+                                null
+                            }
+                        
                         <div className='side-info'>
                             <h4 className='sidebar-title'>Tools</h4>
                             <ul>{

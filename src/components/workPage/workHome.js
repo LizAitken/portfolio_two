@@ -3,8 +3,7 @@ import '../../styles/work.css';
 import Project from './project';
 import { project_info } from '../../information';
 
-const WorkHome = props => {
-    const { scrollDown } = props;
+const WorkHome = () => {
 
     return (
         <div className="work-wrap">
@@ -18,9 +17,6 @@ const WorkHome = props => {
                     )
                 })
             } 
-            {/* <div className='arrow-wrap'>
-                <div className='down-arrow' onClick={ () => scrollDown() }></div> 
-            </div>    */}
         </div>
     )
 }

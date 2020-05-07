@@ -56,6 +56,7 @@ import BS_to from '../src/images/bs21.png';
 import BS_fo from '../src/images/bs41.png';
 import Space_ts from '../src/images/space37.png';
 import Space_ft from '../src/images/space40.png';
+import Comic_two from '../src/images/comic2.png';
 
 import T_one from '../src/images/t1.png';
 import T_two from '../src/images/t2.png';
@@ -99,7 +100,7 @@ import Design from '../src/images/design_icon@2x.png'
             tools: ['Adobe XD', 'ProCreate', 'InVision' ],
             moreInfo: 'Bricks4Schoolz is a program that helps children understand math concepts in a less intimidating environment. Traditionally, the children create a lego build and follow along with the instruction of the teacher. While in build mode, the teacher would ask various math problems that the children answer using the lego blocks they are building with. Through this project, children can learn and build at their own pace without too much involvement from the teacher.',
             moreInfoTwo: 'The flow of the game is fairly simple. The child is first taken to a screen to choose their planet (or theme)- there are 7 themes in total. Then they are introduced to their guide (or aide). Afterwards, they are taken through build screens and math questions. Intermittently, there are instructions for help if needed and encouragement through congratulations and achievement screens.',
-            main_images: [{source: BS_one},{source: BS_two}, {source: BS_three}, {source: BS_four}, {source: BS_five}, {source: BS_six}, {source: Space_ts}, {source: Space_ft}, {source: BS_fo}, {source: BS_twelve}, {source: BS_eighteen}, {source: BS_nineteen}, {source: BS_twenty}, {source: BS_to}]
+            main_images: [{source: BS_one},{source: BS_two}, {source: BS_three}, {source: BS_four}, {source: BS_five}, {source: BS_six}, {source: Space_ts}, {source: Space_ft}, {source: BS_fo}, {source: Comic_two}, {source: BS_twelve}, {source: BS_eighteen}, {source: BS_nineteen}, {source: BS_twenty}, {source: BS_to}]
         },
         {
             title: 'Sponsored Children App',
@@ -108,7 +109,6 @@ import Design from '../src/images/design_icon@2x.png'
             images: [School],
             icons: [Build, Design],
             problems: 'The biggest complication here was that there were so many moving parts and variables to take into account. As it is based upon a real problem to be solved, the database table was a bit tricky to handle as new situations and questions kept getting thrown in as we went, which would change the restructuring of our tables.',
-            methodology: [''],
             tools: ['JavaScript', 'CSS', 'PostgreSQL', 'ExpressJS'],
             moreInfo: 'This backend project was created with a real non-profit in mind. While working with the Sponsored Children Project in Mexico, I came to understand that organization of information and updating of that information was a pain point. At first I optimized our use of Excel; however upon learning how to create database tables, the pain points came to my mind. Although my partner and I only had one week to create this project, we were able to build an application that addressed the non-profit’s needs.',
             future: 'I would love to be able to re-design and actually implement this application so that the Sponsored Children Project could actually use this. I would love to make the design more interesting and user-friendly. We had a lot of ideas that we were not able to implement given the time restraint. One idea would be to have multiple users with varying degrees of authorization. Another, to make Excel data upload able into the SQL tables. A future complication would also be the possibility of losing wifi as the volunteers go to locations with varying degrees of wifi. It would be a more solid design if the project could operate while offline as well as online.',
@@ -124,7 +124,6 @@ import Design from '../src/images/design_icon@2x.png'
             moreInfo: 'This application is truly meant to make donations as easy as possible for the donator. Many people would love to donate to charity, but find that they only have ten dollars or so to give. Sometimes that doesn’t seem like very much when put into a dollar amount. However, when you can see that your ten dollars can provide much needed school supplies or proper food, then you might be more inclined to give.',
             moreInfoTwo: 'The application works as such: The non-profit signs up, adds a bookmarklet to their bookmark bar, and is then able to shop on Amazon. While shopping on Amazon for the things their non-profit needs, they press the bookmarklet so that it can register the item and how many is needed. As a donator, I do not have to register, but am taken to the main donation page. There, I can filter by non-profit category or just browse the list of items. Once I see something I would like to buy, I can click on the item, checkout the non-profit, see how many they need, and can be directed to the Amazon product page. There, I can purchase the item and send it directly to the non-profit.',
             future: 'I would like to expand the bookmarklet to be able to browse multiple platforms, so that it does not limit the non-profits to purchases from Amazon. I also think it would be a great idea for the individuals to have a home page in order to see their purchases (Which I have now implemented.). Earlier on, I had the thought to verify a non-profit through their identification number and match it to the database of non-profits. However, as it is an open source list, it seemed a tad redundant, as those with the idea to create a false non-profit, could just create one based on that list. The list is also old and would prevent new non-profits from joining. Ideally, I would love a way to verify non-profits and then be able to give tax write-offs for those who donate. ',
-            methodology: [''],
             tools: ['JavaScript', 'CSS', 'PostgreSQL', 'ExpressJS', 'ReactJS'],
             main_images: [{source: C_one}, {source: C_two}, {source: C_three}, {source: C_four}, {source: C_five}, {source: C_six}, {source: C_seven}, {source: C_eight}, {source: C_nine}, {source: C_ten}],
             movie: [C_vid]
@@ -139,7 +138,6 @@ import Design from '../src/images/design_icon@2x.png'
             problems: 'I think the biggest challenge was staying true to the original implementation and not expanding the application too much. As this was conceptualized for the general public and not given specifications, it opened up a lot of possibilities. However, I think applications should help a user with one or two things, and be very good at those particular things. Opening up multiple features can dilute a product instead of enhance it. My challenge with the redesign was not going overboard with all the features I would like to give the users.',
             moreInfo: 'You will find two sets of designs for this project. One design was built and deployed with Javascript, HTML, CSS, and AWS. The other, I redesigned the original build using Adobe XD. The redesign encompasses a few more features I would have liked to add to the main application if there had been more time.',
             future: 'I think that this would be a great project for further testing. Although I utilized some A/B testing after the fact and researched competitors, I think it would be great to have done some more product research in the form of interviews from the beginning.',
-            methodology: ['My methodology here.'],
             tools: ['JavaScript', 'CSS', 'HTML'],
             main_images: [{source: T_one}, {source: T_two}, {source: T_three}, {source: T_four}, {source: T_five}, {source: T_six}, {source: T_seven}, {source: T_eight}, {source: T_nine}, {source: T_ten}, {source: T_eleven}]
         },
@@ -150,7 +148,6 @@ import Design from '../src/images/design_icon@2x.png'
             links: {  github: 'https://github.com/LizAitken/DangerousDiving'},
             images: [Shark],
             icons: [Build, Design],
-            methodology: [''],
             tools: ['Python'],
             main_images: [{source: D_one}, {source: D_two}],
             movie: [D_mov]
@@ -171,8 +168,6 @@ import Design from '../src/images/design_icon@2x.png'
             title: 'Illustrations',
             about: 'Various digital illustrations created with different technologies. ',
             images: [Create],
-            icons: [''],
-            tools: ['Figma', 'Photoshop', 'Adobe Illustrator'],
             main_images: [Homeschool, GreenBeans, Mushrooms, Scary_movies, Beach, Cake]
         }
     ]
