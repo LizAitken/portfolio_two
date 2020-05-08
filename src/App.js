@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
       <Router>
-        <Route path='/portfolio_two' exact render={Homepage}/>
+        <Route path='/' exact render={Homepage}/>
       </Router>
   );
 }
