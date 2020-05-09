@@ -82,3 +82,14 @@ ul {
 .work-paragraph {
     font-size: 1.7rem;
 }
+
+.video-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* .video {
+    width: 80%;
+    height: auto;
+} */

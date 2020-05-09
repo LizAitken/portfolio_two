@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/popup.css';
 import Carousel, { Modal, ModalGateway } from 'react-images';
+import ReactPlayer from 'react-player';
 
 class PopUp extends Component {
     constructor(props) {
@@ -13,6 +14,7 @@ class PopUp extends Component {
     toggleModal = () => {
         this.setState(state => ({ modalIsOpen: !state.modalIsOpen }));
     };
+    
 
     render () {
         const { info, togglePopup } = this.props;
@@ -62,12 +64,17 @@ class PopUp extends Component {
                     </div> 
                     }
                 </div>
-
-                {info.movie ? 
-                    <video width="70%" controls src={info.movie}></video>
-                    :
-                    null
-                }
+                <div className='video-wrap'>
+                    {info.movie ? 
+                        <ReactPlayer className='video'
+                            url={ info.movie[0] }
+                            controls={true}
+                            width={'80%'}
+                            />
+                        :
+                        null
+                    }
+                </div>
 
                 { info.title !== 'Illustrations' ? 
                 <div className='main-side-wrap'>

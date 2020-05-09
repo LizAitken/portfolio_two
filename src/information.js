@@ -14,7 +14,6 @@ import C_seven from '../src/images/c7.png';
 import C_eight from '../src/images/c8.png';
 import C_nine from '../src/images/c9.png';
 import C_ten from '../src/images/c10.png';
-import C_vid from '../src/images/C_DemoVideo.mov';
 
 import Homeschool from '../src/images/homeschooling.png';
 import GreenBeans from '../src/images/greenBeans.JPG';
@@ -27,7 +26,6 @@ import Cake from '../src/images/cake.png';
 
 import D_one from '../src/images/dd_one.png';
 import D_two from '../src/images/dd_two.png';
-import D_mov from '../src/images/dd_movie.mp4'
 
 import S_one from '../src/images/scp1.png';
 import S_two from '../src/images/scp2.png';
@@ -126,7 +124,7 @@ import Design from '../src/images/design_icon@2x.png'
             future: 'I would like to expand the bookmarklet to be able to browse multiple platforms, so that it does not limit the non-profits to purchases from Amazon. I also think it would be a great idea for the individuals to have a home page in order to see their purchases (Which I have now implemented.). Earlier on, I had the thought to verify a non-profit through their identification number and match it to the database of non-profits. However, as it is an open source list, it seemed a tad redundant, as those with the idea to create a false non-profit, could just create one based on that list. The list is also old and would prevent new non-profits from joining. Ideally, I would love a way to verify non-profits and then be able to give tax write-offs for those who donate. ',
             tools: ['JavaScript', 'CSS', 'PostgreSQL', 'ExpressJS', 'ReactJS'],
             main_images: [{source: C_one}, {source: C_two}, {source: C_three}, {source: C_four}, {source: C_five}, {source: C_six}, {source: C_seven}, {source: C_eight}, {source: C_nine}, {source: C_ten}],
-            movie: [C_vid]
+            movie: ['https://vimeo.com/416509609']
         },
         {
             title: 'Traveling Tails',
@@ -150,7 +148,7 @@ import Design from '../src/images/design_icon@2x.png'
             icons: [Build, Design],
             tools: ['Python'],
             main_images: [{source: D_one}, {source: D_two}],
-            movie: [D_mov]
+            movie: ['https://vimeo.com/416531642']
         },
         {
             title: 'Maynooth Furniture',
