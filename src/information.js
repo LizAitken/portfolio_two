@@ -16,8 +16,6 @@ import C_nine from '../src/images/c9.png';
 import C_ten from '../src/images/c10.png';
 
 import Homeschool from '../src/images/homeschooling.png';
-import GreenBeans from '../src/images/greenBeans.JPG';
-import Mushrooms from '../src/images/mushrooms.JPG';
 import Scary_movies from '../src/images/scary_movies.png';
 import Beach from '../src/images/ocean_city.png';
 import Computer from '../src/images/bricks4schoolz.png';
@@ -166,6 +164,6 @@ import Design from '../src/images/design_icon@2x.png'
             title: 'Illustrations',
             about: 'Various digital illustrations created with different technologies. ',
             images: [Create],
-            main_images: [Homeschool, GreenBeans, Mushrooms, Scary_movies, Beach, Cake]
+            main_images: [Homeschool, Scary_movies, Beach, Cake]
         }
     ]
