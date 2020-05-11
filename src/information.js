@@ -64,7 +64,7 @@ import T_seven from '../src/images/t7.png';
 import T_eight from '../src/images/t8.png';
 import T_nine from '../src/images/t9.png';
 import T_ten from '../src/images/t10.png';
-import T_eleven from '../src/images/t11.png'
+import T_eleven from '../src/images/t11.png';
 
 import M_one from '../src/images/m1.png';
 import M_two from '../src/images/m2.png';
@@ -76,15 +76,45 @@ import M_seven from '../src/images/m7.png';
 import M_eight from '../src/images/m8.png';
 import M_nine from '../src/images/m9.png';
 import M_ten from '../src/images/m10.png';
-import M_eleven from '../src/images/m11.png'
-import M_twelve from '../src/images/m12.png'
-import M_thirteen from '../src/images/m13.png'
-import M_fourteen from '../src/images/m14.png'
+import M_eleven from '../src/images/m11.png';
+import M_twelve from '../src/images/m12.png';
+import M_thirteen from '../src/images/m13.png';
+import M_fourteen from '../src/images/m14.png';
 
-import Build from '../src/images/build_icon@2x.png'
-import Design from '../src/images/design_icon@2x.png'
+import Build from '../src/images/build_icon@2x.png';
+import Design from '../src/images/design_icon@2x.png';
 
-    export const project_info = [
+import E_one from '../src/images/encaustic1.jpg';
+import E_two from '../src/images/encaustic2.jpg';
+import E_four from '../src/images/encaustic4.jpg';
+import E_five from '../src/images/encaustic5.jpg';
+import E_six from '../src/images/encaustic6.jpg';
+import E_seven from '../src/images/encaustic7.jpg';
+import E_twelve from '../src/images/encaustic12.jpg';
+import E_tt from '../src/images/encaustic23.jpeg';
+
+import I_two from '../src/images/ink2.jpg';
+import I_three from '../src/images/ink3.jpg';
+import I_five from '../src/images/ink5.jpg';
+import I_eight from '../src/images/ink8.jpg';
+import I_thrtn from '../src/images/ink13.jpg';
+import I_twenty from '../src/images/ink20.jpg';
+import I_to from '../src/images/ink21.jpeg';
+import I_tt from '../src/images/ink22.jpeg';
+import I_tfr from '../src/images/ink24.jpeg';
+
+import O_one from '../src/images/oil1.jpg';
+import O_two from '../src/images/oil2.jpg';
+import O_three from '../src/images/oil3.jpg';
+import O_four from '../src/images/oil4.jpg';
+import O_ten from '../src/images/oil10.jpg';
+import O_thrtn from '../src/images/oil13.jpg';
+import O_svtn from '../src/images/oil17.jpg';
+import O_nntn from '../src/images/oil19.jpeg';
+import O_twenty from '../src/images/oil20.jpg';
+
+
+    export const design = [
         {
             title: 'Bricks4Schoolz',
             about: 'An interactive computer game designed in order to help children overcome math anxiety. ',
@@ -99,16 +129,43 @@ import Design from '../src/images/design_icon@2x.png'
             main_images: [{source: BS_one},{source: BS_two}, {source: BS_three}, {source: BS_four}, {source: BS_five}, {source: BS_six}, {source: Space_ts}, {source: Space_ft}, {source: BS_fo}, {source: Comic_two}, {source: BS_twelve}, {source: BS_eighteen}, {source: BS_nineteen}, {source: BS_twenty}, {source: BS_to}]
         },
         {
-            title: 'Sponsored Children App',
-            about: 'Application created in order to optimize the organization of a non-profit that aids kids with school supplies.',
-            links: {  github: 'https://github.com/LizAitken/nonprofit-organization-app' },
-            images: [School],
+            title: 'Traveling Tails',
+            about: "Redesign of an pet-friendly location finder application created by a partner and I.",
+            links: {  github: 'https://github.com/LizAitken/RefactorTT',
+                        liveSite: 'http://ec2-52-14-218-146.us-east-2.compute.amazonaws.com/travelingTails.html'},
+            images: [Paw],
             icons: [Build, Design],
-            problems: 'The biggest complication here was that there were so many moving parts and variables to take into account. As it is based upon a real problem to be solved, the database table was a bit tricky to handle as new situations and questions kept getting thrown in as we went, which would change the restructuring of our tables.',
-            tools: ['JavaScript', 'CSS', 'PostgreSQL', 'ExpressJS'],
-            moreInfo: 'This backend project was created with a real non-profit in mind. While working with the Sponsored Children Project in Mexico, I came to understand that organization of information and updating of that information was a pain point. At first I optimized our use of Excel; however upon learning how to create database tables, the pain points came to my mind. Although my partner and I only had one week to create this project, we were able to build an application that addressed the non-profit’s needs.',
-            future: 'I would love to be able to re-design and actually implement this application so that the Sponsored Children Project could actually use this. I would love to make the design more interesting and user-friendly. We had a lot of ideas that we were not able to implement given the time restraint. One idea would be to have multiple users with varying degrees of authorization. Another, to make Excel data upload able into the SQL tables. A future complication would also be the possibility of losing wifi as the volunteers go to locations with varying degrees of wifi. It would be a more solid design if the project could operate while offline as well as online.',
-            main_images: [{source: S_one}, {source: S_two}, {source: S_three}, {source: S_four}, {source: S_five}, {source: S_six}, {source: S_one}, {source: S_seven}, {source: S_eight}, {source: S_nine}, {source: S_ten}, {source: S_twelve}, {source: S_fifteen}]
+            problems: 'I think the biggest challenge was staying true to the original implementation and not expanding the application too much. As this was conceptualized for the general public and not given specifications, it opened up a lot of possibilities. However, I think applications should help a user with one or two things, and be very good at those particular things. Opening up multiple features can dilute a product instead of enhance it. My challenge with the redesign was not going overboard with all the features I would like to give the users.',
+            moreInfo: 'You will find two sets of designs for this project. One design was built and deployed with Javascript, HTML, CSS, and AWS. The other, I redesigned the original build using Adobe XD. The redesign encompasses a few more features I would have liked to add to the main application if there had been more time.',
+            future: 'I think that this would be a great project for further testing. Although I utilized some A/B testing after the fact and researched competitors, I think it would be great to have done some more product research in the form of interviews from the beginning.',
+            tools: ['JavaScript', 'CSS', 'HTML'],
+            main_images: [{source: T_five}, {source: T_six}, {source: T_seven}, {source: T_eight}, {source: T_nine}, {source: T_ten}, {source: T_eleven}]
+        },
+        {
+            title: 'Maynooth Furniture',
+            about: 'A website design for a furniture store located in the UK. ',
+            links: {  design: 'https://www.figma.com/file/LDf9fuTiVG1vBBSgmzFguZ/maynooth?node-id=76%3A3'},
+            images: [Maynooth],
+            icons: [Design],
+            problems: 'Some of the design challenges came with product design and the features that a user might want or need inside the design. Striking the balance between user friendliness and giving your users multiple options is one that seems to come up quite a bit when working with filters. Ultimately, I decided on the choices I made through competitor research and interviews from the main demographic of the this site.',
+            future: 'More testing would be valuable for the site.',
+            methodology: ['A/B Testing'],
+            tools: ['Figma', 'Photoshop', 'Adobe Illustrator'],
+            main_images: [{source: M_one}, {source: M_two}, {source: M_three}, {source: M_four}, {source: M_five}, {source: M_six}, {source: M_seven}, {source: M_eight}, {source: M_nine}, {source: M_ten}, {source: M_eleven}, {source: M_twelve}, {source: M_thirteen}, {source: M_fourteen},]
+        }
+    ]
+
+    export const dev = [
+        {
+            title: 'Dangerous Diving',
+            about: 'A 2D side-scrolling game immersing the player in an underwater adventure.',
+            moreInfo: 'My partner and I found various images (either hand-drawn by myself or online) to create the visuals in this game. The music was also found through a different source online.',
+            links: {  github: 'https://github.com/LizAitken/DangerousDiving'},
+            images: [Shark],
+            icons: [Build, Design],
+            tools: ['Python'],
+            main_images: [{source: D_one}, {source: D_two}],
+            movie: ['https://vimeo.com/416531642']
         },
         {
             title: 'Cornucopia',
@@ -125,6 +182,18 @@ import Design from '../src/images/design_icon@2x.png'
             movie: ['https://vimeo.com/416509609']
         },
         {
+            title: 'Sponsored Children Project',
+            about: 'Application created in order to optimize the organization of a non-profit that aids kids with school supplies.',
+            links: {  github: 'https://github.com/LizAitken/nonprofit-organization-app' },
+            images: [School],
+            icons: [Build, Design],
+            problems: 'The biggest complication here was that there were so many moving parts and variables to take into account. As it is based upon a real problem to be solved, the database table was a bit tricky to handle as new situations and questions kept getting thrown in as we went, which would change the restructuring of our tables.',
+            tools: ['JavaScript', 'CSS', 'PostgreSQL', 'ExpressJS'],
+            moreInfo: 'This backend project was created with a real non-profit in mind. While working with the Sponsored Children Project in Mexico, I came to understand that organization of information and updating of that information was a pain point. At first I optimized our use of Excel; however upon learning how to create database tables, the pain points came to my mind. Although my partner and I only had one week to create this project, we were able to build an application that addressed the non-profit’s needs.',
+            future: 'I would love to be able to re-design and actually implement this application so that the Sponsored Children Project could actually use this. I would love to make the design more interesting and user-friendly. We had a lot of ideas that we were not able to implement given the time restraint. One idea would be to have multiple users with varying degrees of authorization. Another, to make Excel data upload able into the SQL tables. A future complication would also be the possibility of losing wifi as the volunteers go to locations with varying degrees of wifi. It would be a more solid design if the project could operate while offline as well as online.',
+            main_images: [{source: S_one}, {source: S_two}, {source: S_three}, {source: S_four}, {source: S_five}, {source: S_six}, {source: S_one}, {source: S_seven}, {source: S_eight}, {source: S_nine}, {source: S_ten}, {source: S_twelve}, {source: S_fifteen}]
+        },
+        {
             title: 'Traveling Tails',
             about: "Optimizes traveling with one's dogs by giving the user the ability to pinpoint pet friendly locations.",
             links: {  github: 'https://github.com/LizAitken/RefactorTT',
@@ -135,35 +204,35 @@ import Design from '../src/images/design_icon@2x.png'
             moreInfo: 'You will find two sets of designs for this project. One design was built and deployed with Javascript, HTML, CSS, and AWS. The other, I redesigned the original build using Adobe XD. The redesign encompasses a few more features I would have liked to add to the main application if there had been more time.',
             future: 'I think that this would be a great project for further testing. Although I utilized some A/B testing after the fact and researched competitors, I think it would be great to have done some more product research in the form of interviews from the beginning.',
             tools: ['JavaScript', 'CSS', 'HTML'],
-            main_images: [{source: T_one}, {source: T_two}, {source: T_three}, {source: T_four}, {source: T_five}, {source: T_six}, {source: T_seven}, {source: T_eight}, {source: T_nine}, {source: T_ten}, {source: T_eleven}]
-        },
-        {
-            title: 'Dangerous Diving',
-            about: 'A 2D side-scrolling game immersing the player in an underwater adventure.',
-            moreInfo: 'My partner and I found various images (either hand-drawn by myself or online) to create the visuals in this game. The music was also found through a different source online.',
-            links: {  github: 'https://github.com/LizAitken/DangerousDiving'},
-            images: [Shark],
-            icons: [Build, Design],
-            tools: ['Python'],
-            main_images: [{source: D_one}, {source: D_two}],
-            movie: ['https://vimeo.com/416531642']
-        },
-        {
-            title: 'Maynooth Furniture',
-            about: 'A website design for a furniture store located in the UK. ',
-            links: {  design: 'https://www.figma.com/file/LDf9fuTiVG1vBBSgmzFguZ/maynooth?node-id=76%3A3'},
-            images: [Maynooth],
-            icons: [Design],
-            problems: 'Some of the design challenges came with product design and the features that a user might want or need inside the design. Striking the balance between user friendliness and giving your users multiple options is one that seems to come up quite a bit when working with filters. Ultimately, I decided on the choices I made through competitor research and interviews from the main demographic of the this site.',
-            future: 'More testing would be valuable for the site.',
-            methodology: ['A/B Testing'],
-            tools: ['Figma', 'Photoshop', 'Adobe Illustrator'],
-            main_images: [{source: M_one}, {source: M_two}, {source: M_three}, {source: M_four}, {source: M_five}, {source: M_six}, {source: M_seven}, {source: M_eight}, {source: M_nine}, {source: M_ten}, {source: M_eleven}, {source: M_twelve}, {source: M_thirteen}, {source: M_fourteen},]
-        },
+            main_images: [{source: T_one}, {source: T_two}, {source: T_three}, {source: T_four}]
+        }
+    ]
+
+    export const art = [
         {
             title: 'Illustrations',
             about: 'Various digital illustrations created with different technologies. ',
             images: [Create],
-            main_images: [Homeschool, Scary_movies, Beach, Cake]
+            main_images: [Paw, School, Donate, Shark, Maynooth, Computer, Homeschool, Scary_movies, Beach, Cake]
+        },
+        {
+            title: 'Encaustic',
+            about: 'A few of my paintings created with wax on birch wood.',
+            images: [E_tt],
+            main_images: [E_two, E_one, E_four, E_five, E_six, E_seven, E_twelve, E_tt]
+        },
+        {
+            title: 'Ink',
+            about: 'A sampling of artwork created with ink and watercolor. ',
+            images: [I_to],
+            main_images: [ I_two, I_three, I_five, I_eight, I_thrtn, I_twenty, I_to, I_tt, I_tfr]
+        },
+        {
+            title: 'Oil',
+            about: 'Some works created with oil paint and oil stick.',
+            images: [O_nntn],
+            main_images: [O_two, O_twenty, O_thrtn, O_three, O_ten, O_svtn, O_one, O_nntn, O_four]
         }
+
+    
     ]
