@@ -41,7 +41,7 @@ class PopUp extends Component {
                 </div>
                 <div className='title-wrap'>
                     <h1>{info.title}</h1>
-                    { info.title !== 'Illustrations' ? 
+                    { info.tools ? 
                         <div className='modal-image'>
                             <img className='head-photo' 
                                 alt={'A photo of ' + info.title}
@@ -76,7 +76,7 @@ class PopUp extends Component {
                     }
                 </div>
 
-                { info.title !== 'Illustrations' ? 
+                { info.tools ? 
                 <div className='main-side-wrap'>
                     <div className='main-work-wrap'>
                         <div className='about-work-wrap'>
@@ -132,9 +132,9 @@ class PopUp extends Component {
                             </ul>
                         </div>
                         {info.links.design || info.links.github == 'private' ?
-                        <h4 className='sidebar-title'>This project is private.<br /> Please contact me at <br />liz.a.aitken@gmail.com <br />if you have any questions.</h4>
+                        <h4 className='sidebar-title'>This project is private.<br /> Please contact me at <br />liz.a.aitken@gmail.com if you have any questions.</h4>
                         :
-                        <button className='launch'>
+                        <button className='work-button'>
                             <a href={info.links.github || info.links.design } target='_blank' rel="noopener noreferrer">Project Source</a>
                         </button>
                         }

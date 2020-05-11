@@ -10,7 +10,7 @@
     margin: auto;
     background-color: rgba(0,0,0, 0.5);
     overflow: scroll;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Josefin Sans';
 }
 
 .popup-wrap {
@@ -28,32 +28,31 @@
 }
 
 .button-wrap {
-    text-align: end;
+    width: 92%;
+    text-align: right;
 }
 
 .popup-button {
     background-color: #f2c885;
     color: black;
-    font-family: 'Roboto Slab', serif;
     font-size: 1rem;
     margin: 1rem;
-    padding: 1rem;
+    padding: .5rem;
+    /* align-self: center; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     background-image: url("../images/button_wave.svg");
     background-size: cover;
     font-weight: bold;
-    text-align: center;
+    z-index: 25;
+    position: fixed;
+    text-align: right;
 }
 
 .title-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.title-wrap h1 {
-    font-size: 3.6rem;
 }
 
 .head-photo .modal-image {
@@ -69,7 +68,7 @@
 }
 
 .modal-image:hover {
-    opacity: 80%;
+    /* opacity: 80%; */
     cursor: pointer;
 }
 
@@ -82,7 +81,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.4rem;
+    font-size: 3vh;
     font-weight: bold;
     color: black;
     opacity: 0;
@@ -106,6 +105,10 @@
     text-align: left;
 }
 
+.sidebar-wrap {
+    width: 20%;
+}
+
 .side-info p {
     margin: .5rem;
 }
@@ -113,14 +116,15 @@
 .side-info li {
     padding: 0 0 .4rem .3rem;
     list-style-type: square;
-    font-size: 1.3rem;
+    font-size: 3vh;
 }
 
 .about-title-p {
     margin: 0;
     padding: 0;
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 5vh;
+    font-family: 'Yeseva One';
 }
 
 .sidebar-title {
@@ -128,13 +132,13 @@
     padding: 0;
     text-align: left;
     color: #828282;
-    font-size: 1.5rem;
+    font-size: 3vh;
+    overflow-wrap: break-word;
 }
 
 .work-p {
     text-align: left;
-    flex-wrap: wrap;
-    font-size: 1.3rem;
+    font-size: 3vh;
 }
 
 .launch {
@@ -143,7 +147,6 @@
     height: auto;
     font-size: 1.2rem;
     padding: .5rem;
-    font-family: 'Roboto Slab', serif;
     cursor: pointer;
 }
 

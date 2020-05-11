@@ -31,34 +31,51 @@ class Project extends Component {
         }
 
         return (
-            <>
-               <div className='work-card'>
-                    <img style={workImage} src={project_information.images[0]} alt={'Example image of ' + project_information.title}></img>
-                    <div className='image-paragraph-wrap'>
-                        <div className='title-para-button-wrapping'>
-                            <a id='work'><h1>{ '{ ' + project_information.title + ' }'}</h1></a>
-                            { project_information.icons ?
-                                project_information.icons.map((image, index) => {
-                                    return (
-                                        <img className='type-icon' src={image} key={index} alt='This icon means this project was either specifically meant for designing, building, or both.'></img>
-                                    )
-                                })
-                                :
-                                null
-                            }
-                            <p className='work-paragraph'>{project_information.about}</p>
-                            <div className='work-button-wrapping'>
-                                <button className='work-button' onClick={() => this.togglePopup()}>More Info</button>              
+                <li class="card-item">
+                    <div className='work-card'>
+                        { project_information.tools  ? 
+                            <div className='main-image-photo-wrap'>
+                                <img className='project-head-photo' 
+                                    alt={'A photo of ' + project_information.title}
+                                    src={project_information.main_images[0].source}
+                                >
+                                </img>
+                            </div>
+                        :        
+                            <div className='main-image-photo-wrap'>
+                                <img className='project-head-photo' 
+                                    alt={'A photo of ' + project_information.title}
+                                    src={project_information.images[0]}
+                                    >
+                                </img>
+                            </div>
+                        }
+                        {/* <img className='project-image' style={workImage} src={project_information.images[0]} alt={'Example image of ' + project_information.title}></img> */}
+                        <div className='image-paragraph-wrap'>
+                            <div className='title-para-button-wrapping'>
+                                <a id='work'><h1>{project_information.title}</h1></a>
+                                {/* { project_information.icons ?
+                                    project_information.icons.map((image, index) => {
+                                        return (
+                                            <img className='type-icon' src={image} key={index} alt='This icon means this project was either specifically meant for designing, building, or both.'></img>
+                                        )
+                                    })
+                                    :
+                                    null
+                                } */}
+                                <p className='work-paragraph'>{project_information.about}</p>
+                                <div className='work-button-wrapping'>
+                                    <button className='work-button' onClick={() => this.togglePopup()}>More Info</button>              
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div> 
-                { !!popupState ? 
-                    <PopUp info={project_information} togglePopup={this.togglePopup}/> 
-                    :
-                    null
-                }
-            </>
+                    </div> 
+                    { !!popupState ? 
+                        <PopUp info={project_information} togglePopup={this.togglePopup}/> 
+                        :
+                        null
+                    }
+                </li>
         )
     }
 }
