@@ -120,7 +120,7 @@ import O_twenty from '../src/images/oil20.jpg';
             about: 'An interactive computer game designed in order to help children overcome math anxiety. ',
             links: {  design: 'private' },
             images: [Computer],
-            icons: [Design],
+            icons: [Build],
             problems: 'One of the challenges of this project was to create a style to the screens that children would be able to recognize and be comfortable with. Through research of popular current cartoons, I was able to gather an understanding of what kind of style a child today might find familiar and engaging. Through A/B testing with children, I was gathered an understanding of game layout and what kids might be expecting from a game.',
             methodology: ['A/B Testing', 'UX Interviews'],
             tools: ['Adobe XD', 'ProCreate', 'InVision' ],

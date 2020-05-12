@@ -55,9 +55,9 @@ class Project extends Component {
                             <div className='title-para-button-wrapping'>
                                 <a id='work'><h1>{project_information.title}</h1></a>
                                 {/* { project_information.icons ?
-                                    project_information.icons.map((image, index) => {
+                                    project_information.icons.map((icon, index) => {
                                         return (
-                                            <img className='type-icon' src={image} key={index} alt='This icon means this project was either specifically meant for designing, building, or both.'></img>
+                                            <div key={index}><FontAwesomeIcon icon={icon}/></div>
                                         )
                                     })
                                     :

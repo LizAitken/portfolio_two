@@ -15,6 +15,21 @@
     overflow: hidden;
 }
 
+.rep-title-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rep-icon {
+    width: 10vh;
+    height: 10vh;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+
+
 .cards {
     margin: 0;
     padding: 0;

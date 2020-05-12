@@ -18,17 +18,22 @@
     list-style: none;
 }
 
+
 li, a {
     color: black;
     text-decoration: none;
     padding: .3rem;
 }
 
+.nav-list li {
+    transition: 1s box-shadow;
+    border-radius: 10px;
+}
+
 .nav-list li:hover{
     background-color: #f6e8ea;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
 }
 
 .sticky {
