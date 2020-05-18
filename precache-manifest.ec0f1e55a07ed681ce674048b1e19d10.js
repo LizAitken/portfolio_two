@@ -1,35 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c58d6b627fce996712828855b916bd0c",
+    "revision": "bbfabe02306ab22480e2f5e5eb53318b",
     "url": "/index.html"
   },
   {
-    "revision": "c749c2d2bde733d480ad",
-    "url": "/static/css/main.1dffe855.chunk.css"
+    "revision": "ed0813f54b25a05edf51",
+    "url": "/static/css/main.d9039640.chunk.css"
   },
   {
-    "revision": "b25dc2f20a81faf1f3de",
-    "url": "/static/js/2.c4b05384.chunk.js"
+    "revision": "e08704faa264f2b1779f",
+    "url": "/static/js/2.6780bf34.chunk.js"
   },
   {
     "revision": "507c4436aa55e48136618e82a79cbf78",
-    "url": "/static/js/2.c4b05384.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6780bf34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c749c2d2bde733d480ad",
-    "url": "/static/js/main.50a49aba.chunk.js"
+    "revision": "ed0813f54b25a05edf51",
+    "url": "/static/js/main.9305df7f.chunk.js"
   },
   {
     "revision": "a8e62e0d607660759ee2",
     "url": "/static/js/runtime-main.100184b4.js"
-  },
-  {
-    "revision": "d5c78fc58ccff8b655eb9b3d9bdef169",
-    "url": "/static/media/Bb_Headshot-7612.d5c78fc5.png"
-  },
-  {
-    "revision": "8d766a1d733f610137f38f7d06aeb18d",
-    "url": "/static/media/blob-shape.8d766a1d.svg"
   },
   {
     "revision": "1804d4750adbd3e5878bec7330267d42",
@@ -140,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/comic2.049d76ba.png"
   },
   {
+    "revision": "d26169a70b86e8ad6bb9665044975288",
+    "url": "/static/media/computer.d26169a7.png"
+  },
+  {
     "revision": "a457d7f99d1f1657e0a6e913f689579d",
     "url": "/static/media/create.a457d7f9.png"
   },
@@ -162,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d9dde275d95e3b3e623d46d91798d5a",
     "url": "/static/media/donate.6d9dde27.png"
+  },
+  {
+    "revision": "7e01d030f2e6fca1c5a6e5b1ad12b128",
+    "url": "/static/media/electronics.7e01d030.png"
   },
   {
     "revision": "816a7054e6fd9dedade1ffbfd282e0ae",
@@ -194,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6293e5b75dc7edb279b932643f0120f6",
     "url": "/static/media/encaustic7.6293e5b7.jpg"
+  },
+  {
+    "revision": "156030f5c6b16a085c35f91ac7fe2dec",
+    "url": "/static/media/graphic.156030f5.png"
   },
   {
     "revision": "0ea19e4a6a557277107bf0d461d8d658",
@@ -294,6 +298,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3752f413040e00771e24d810595a64a3",
     "url": "/static/media/m9.3752f413.png"
+  },
+  {
+    "revision": "fbc931ad7bb964e781e7c828335b9365",
+    "url": "/static/media/magic-wand.fbc931ad.png"
   },
   {
     "revision": "a1230f5a2717f666c69b92a2b76a8079",
