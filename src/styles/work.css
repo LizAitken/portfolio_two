@@ -28,8 +28,6 @@
     margin-right: 1rem;
 }
 
-
-
 .cards {
     margin: 0;
     padding: 0;
@@ -123,4 +121,25 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 400px) {
+    .cards {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        -webkit-flex-wrap: none;
+        flex-wrap: none;
+        list-style: none;
+    }
+    
+    /* .card-item {
+        display: flex;
+        width: 40%;
+        margin: 5%;
+        padding: 0;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    } */
 }

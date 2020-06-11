@@ -54,6 +54,18 @@ li, a {
     padding-right: 1vh;
 }
 
+@media screen and (max-width: 400px) {
+    .nav-list li, .nav-list a {
+        display: none;
+    }
+
+    .nav-icons {
+        width: 2.7rem;
+        height: 2.7rem;
+        margin: 0 .5rem 0 .5rem;
+    }
+}
+
 .nav-icons:hover {
     opacity: 50%;
 }

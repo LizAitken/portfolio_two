@@ -25,6 +25,9 @@ const Homepage = () => {
                             <a href="#design" target="_self"><h4 className='title'>Designer <FaRegHandPointRight className='point'/></h4></a>
                         </div>
                         <div className='cartoon'></div>
+                            <a href="#art" target="_self"><h4 className='title_hide'>Artist <FaRegHandPointRight className='point'/></h4></a>
+                            <a href="#dev" target="_self"><h4 className='title_hide'>Software Developer <FaRegHandPointRight className='point'/></h4></a>
+                            <a href="#design" target="_self"><h4 className='title_hide'>Designer <FaRegHandPointRight className='point'/></h4></a>
                     </div> 
             </div>
             {/* <div className='arrow-wrap'>

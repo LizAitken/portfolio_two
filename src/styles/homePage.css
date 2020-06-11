@@ -107,3 +107,46 @@ html {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+.title_hide {
+    display: none;
+}
+
+
+@media screen and (max-width: 400px) {
+    .main-wrap {
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .title, .point, .title-wrap a {
+        display: none;
+    }
+
+    .title_hide {
+        display: block;
+        font-weight: 500;
+        font-size: 4vh;
+        font-family: 'Josefin Sans';
+        text-align: center;
+    }
+
+    .hi {
+        margin-bottom: 0;
+    }
+
+    .cartoon {
+        margin-bottom: 2rem;
+    }
+
+    .wave {
+        margin: 0;
+    }
+
+    .title_hide {
+        margin: 1rem;
+    }
+
+}
