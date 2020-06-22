@@ -54,7 +54,7 @@ li, a {
     padding-right: 1vh;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
     .nav-list li, .nav-list a {
         display: none;
     }
