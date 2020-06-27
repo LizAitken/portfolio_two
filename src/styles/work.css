@@ -1,5 +1,6 @@
 #work {
     margin-left: 2vh;
+    text-overflow: wrap;
 }
 
 .work-wrap {
@@ -60,7 +61,7 @@
 .title-para-button-wrapping {
     flex-wrap: wrap;
     margin: 1rem;
-    width: 60%;
+    /* width: 60%; */
     text-align: center;
 }
 
@@ -139,4 +140,5 @@
         display: flex;
         min-width: 310px;
     }
+
 }

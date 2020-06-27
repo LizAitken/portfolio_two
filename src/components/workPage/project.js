@@ -8,6 +8,7 @@ class Project extends Component {
         this.state= {
             popupState: false
         };
+        
     }
 
     togglePopup = () => {
@@ -15,6 +16,10 @@ class Project extends Component {
           popupState: !this.state.popupState
         });
     }
+
+    
+
+   
 
     render() {
         const { popupState } = this.state;
@@ -31,7 +36,7 @@ class Project extends Component {
         }
 
         return (
-                <li class="card-item">
+                <li className="card-item">
                     <div className='work-card'>
                         { project_information.tools  ? 
                             <div className='main-image-photo-wrap'>
